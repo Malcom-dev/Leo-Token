@@ -1,0 +1,163 @@
+
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ccc;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(16, 15, 15);
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+   margin: auto;
+    display: flex;
+    border: #777 solid 1px;
+}
+
+.icon{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: space-around;
+
+}
+
+.icon li{
+    margin-right: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+    font-size: small;
+    font: bold;
+}
+
+p{
+    padding: 1px 0 30px 5px;
+}
+
+header{
+    position: fixed;
+    background-color: rgb(16, 15, 15);
+    height: 40px;
+    text-align: left;
+    border: #777 solid 1px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.road-map{
+    background-color: #5e1ae7;
+    padding: 0;
+    width: 30px;
+    margin: 0;
+    float: right;
+    border: none;
+    border-radius: 5px;
+}
+.logo img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    
+}
+
+.Container1{
+    max-width: 300px;
+    width: 80%;
+    background-color:rgb(16, 15, 15);
+    margin: 10px auto;
+    border: 1px solid #777;
+    border-radius: 15px;
+
+}
+
+.Container1 p{
+    padding: 0;
+    text-align: center;
+}
+
+hr{
+    border: 1px solid #777;
+    outline: none;
+}
+.task-container {
+    max-width: 300px;
+    margin: auto;
+    flex-direction: column;
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    border: 1px #777 solid;
+    border-radius: 15px;
+    height: 55px;
+   
+}
+.task-container img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px 0 0 2px;
+    background-color: aliceblue;
+}
+
+.task{
+    max-width: 300px;
+    display: inline-flex;
+    -webkit-box-flex: ;
+    padding: 5px 10px 0 0;
+    justify-content: space-evenly;
+    
+}
+
+.task button{
+    background-color: rgb(16, 15, 15);
+    outline: none;
+    border: none;
+    color: #ccc;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+}
+
+.task p{
+    font-size: x-small;
+    text-align: left;
+}
+
+.explore-task{
+    width: 80%;
+    color: white;
+    padding: 0.5em;
+    margin: auto;
+    display: block;
+    font-size: small;
+    background-color: #5e1ae7;
+    border: none;
+    border-radius: 10px;
+}

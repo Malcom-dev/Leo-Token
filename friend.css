@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ccc;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+.container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(16, 15, 15);
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+   margin: auto;
+    display: flex;
+    border: #777 solid 1px;
+}
+
+.icon{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: space-around;
+
+}
+
+.icon li{
+    margin-right: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+    font-size: small;
+    font: bold;
+}
+
+p{
+    padding: 1px 0 30px 5px;
+}
+
+header{
+    position: fixed;
+    background-color: rgb(16, 15, 15);
+    height: 40px;
+    text-align: left;
+    border: #777 solid 1px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.road-map{
+    background-color: #5e1ae7;
+    padding: 0;
+    width: 30px;
+    margin: 0;
+    float: right;
+    border: none;
+    border-radius: 5px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #ccc;
+    font-size: medium;
+    margin-top: 50px;
+}
+
+.container-task{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(16, 15, 15);
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    display: block;
+
+}
+
+.inner-container{
+   display: block;
+   text-align: left;
+}
+
+.inner-container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.inner-container p{
+    text-align: center;
+  padding: 0;
+   margin: -45px 0 0px 0px;
+  
+}
+
+ h6{
+    display: block;
+    color: #777;
+    padding: 0;
+    margin: 2px 0 0px 30px;
+    text-align: center;
+
+}
+
+ .invite{
+    background-color: rgb(37, 8, 142);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #ccc;
+    padding: 12px;
+    justify-content: space-between;
+    float: left;
+}
+
+
+.copy{
+    background-color: rgb(37, 8, 142);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #ccc;
+    padding: 12px;
+    justify-content: space-between;
+    margin-left: 10px;
+    float: right;
+}
+
+.clipboard{
+    color: black;
+    background-color: black;
+}
